@@ -26,7 +26,7 @@ node
       }
       
           }	
- 
+ // 192.112.178.236
  stage('RunNodeJsApp')
  {
  //sh "./scripts/run.sh"
