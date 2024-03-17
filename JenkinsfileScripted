@@ -13,6 +13,7 @@ node
     }
  }  
  // 192.88.70.67
+ // 192.88.70.86
   stage('ExecuteSonarQubeReport') {
      nodejs(nodeJSInstallationName: 'nodejs15.2.1') {
         sh 'npm run sonar'
